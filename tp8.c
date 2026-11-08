@@ -65,7 +65,7 @@ int contar(int (*criterio)(float, float), float valor, float *p, int n) {
 		if(criterio(*(p+i), valor) == 1){
 			contador++;
 		}
-	}|
+	}
 	
 	return contador;
 }
